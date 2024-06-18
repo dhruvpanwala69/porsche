@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: my-font;
+    src: url(college.ttf);
+}
+@font-face {
+    font-family: my-font2;
+    src: url(BroncoPersonalUse.ttf);
+}
+#list{
+    font-family: "my-font";
+    height: 89vh;
+    border-right: 1px solid rgba(128, 128, 128, 0.562);
+    position: sticky;
+    left: 0px;
+    top: 80px;
+}
+
+#border{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+}
+#border:hover{
+    background-color: rgb(0, 153, 255);
+color: black;
+
+}
+#border:active{
+    border: 1px solid blue;
+    color: white;
+    color: rgb(0, 153, 255);
+    }
+    #car-list{
+        margin-top: 50px;
+    }
+a{
+    font-family: "my-font";
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+#cc-card{
+  
+        border: none;
+        height:250px;
+        width: 300px;
+        margin-right: 20px;
+}
+#cc-card:hover{
+    cursor: pointer;
+
+}
+    
+
+#cc-card image{
+    
+    background-size: cover;
+    background-position: center;
+}
+#cc-details{
+        font-size: 30px;
+}
+h2:hover{
+   
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+h2{
+    font-family: "my-font";
+    font-weight: 600;
+}
+h4{ 
+    font-family: my-font2; 
+    font-size: 27px;  
+}

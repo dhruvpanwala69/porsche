@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@font-face {
+        font-family: my-font;
+        src: url(college.ttf);
+}
+@font-face {
+        font-family: my-font2;
+        src: url(BroncoPersonalUse.ttf);
+    }
+    @font-face {
+        font-family:my-font3 ;
+        src: url(akaPosse.ttf);
+    }
+    @font-face {
+        font-family: my-font4;
+        src: url(BLKCHCRY.TTF);
+    }
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+                font-family: "Vesper Libre", serif;
+                font-weight: 400;
+                font-style: normal;
+              
+}
+#nav-bar{
+        position:sticky;
+        top: 0;
+        z-index: 20;   
+        font-weight: 700;  
+        font-size: 20px;  
+  
+}
+#navbarSupportedContent ul li a{
+        font-family: "my-font";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding-right:30px;
+}
+#navbarSupportedContent ul li a:hover{
+        color: rgb(15, 28, 208);
+        /* text-decoration: underline; */
+      ;
+        transition: all 0.4s;
+}
+#lname{
+        font-size: 30px;
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+}
+#f-page{
+        margin-top:-59px ;
+         background: #56CCF2;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        height: 100vh;
+}
+.f-image{
+        width: 100%;
+       height: 100vh;
+       overflow: hidden;
+      background-size: cover;
+      background-position: center;
+}
+#f-tittle{
+        font-size: 30px;
+}
+
+.p2-tittle{
+              
+                font-family: "my-font2";
+                font-size: 70px;
+}
+#carouselExampleIndicators{
+        width: 400px;
+}
+#c-img{
+        background-size: cover;
+}
+.carousel-item img{
+        width: 80%;
+}
+h1{ font-family: "Fondamento", cursive;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 90px;
+        color: black;
+}
+#logo{
+        
+        margin-left: 10px;
+        margin-bottom: 5px;
+        width: 35px;
+        background-size: cover;
+}
+#t1{
+        font-family: "my-font3";
+        font-size: 20px;
+        
+}
+#t-head{
+        font-family:"my-font"; 
+        font-weight: 500;  
+        font-size: 40px;
+}
+.carousel-control-next-icon{
+        background-image:url(arrow_n.png);
+       
+}
+.carousel-control-prev-icon{
+        background-image:url(arrow_0.png);
+      
+}
+#nav-bar{
+        background-color:cadetblue
+}
+#btn-f a{
+                
+        color: blue;
+        font-weight: 900;
+        text-decoration: none;
+        
+}
+#btn-f {
+                
+        color: blue;
+        font-weight: 900;
+        text-decoration: none;
+        border: 2px solid blue;
+}
+#btn-f a:hover {
+                
+        color:white;
+        font-weight: 900;
+        text-decoration: none;
+       
+}
+#spage-title {
+        font-family: "my-font2";
+        font-size: 70px;
+}
+#spage{
+                box-shadow: 20px 30px 90px  rgba(0, 0, 0, 0.449) ;
+                width: 100%;
+                height: 400px;
+                border-radius: 20px;
+                background-color: black
+}
+#stitle{
+                margin-top: -35px;
+                font-family: "my-font2";
+                color: white;
+                font-size: 60px;
+}
+#sbtn{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 500;
+}
+#sbtn a{
+        
+        font-family: "my-font";
+        color: black;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        font-size: 21px;
+        font-weight: 900;
+}
+#spara{ 
+        font-family: "my-font";
+                color: white;
+        font-size: 16px;
+}
+#simage{        
+                border-radius: 0% 2% 2% 0%;
+        margin-left: 12px;
+        height: 400px;
+        width: 100%;
+}
+#service{
+      
+width: 100%;
+height: 100vh;
+
+
+}
+
+#fotter{
+                margin-top: 200px;
+                height: 500px;
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+}
+#footer-img img{
+               
+                
+                margin-top: 80px;
+                height: 280px;
+                opacity: 0.8;
+}
+#footer-img{
+                margin-top: 40px;
+                border-right: 1px solid rgba(255, 255, 255, 0.469);
+                height: 400px;
+}
+#fotter-content{
+                color: rgba(255, 255, 255, 0.719);
+}
+#fotter-content h2{
+        font-size: 45px;
+        font-weight: 300;
+}
+#icons img{         margin-top: 20px;
+                        margin-left: 20px;
+                height: 50px;
+}
+
+.changbg{
+        background-color: blue;
+}
+.change a{
+                color: black;
+
+}
+#life-style{
+      margin-top: 100px;
+        width: 100%;
+        height: 550px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+}
+#ls-photo{
+        
+        width: 900px;
+        background-color: #fffdfd;
+        display: block;
+        padding-top: 50px;
+        padding-left: 30px;
+
+}
+#ls-i img{
+       height: 450px;
+       box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.365) ;
+}
+#lf-content{    
+                margin-left: -20px;
+                margin-top: 50px;
+                background-color: #ffffff;
+                height: 450px;
+                width: 600px;
+                padding-right: 100px;
+                
+}
+#lf-content h2{    
+                font-family: "my-font3";
+                font-size: 70px;      
+                color: rgb(0, 0, 0); 
+}
+
+#lf-content p{
+                font-family: "my-font3";
+                font-size: 26px;
+                font-weight: 200;
+                margin-top: 20px;
+                line-height: 35px;
+}
